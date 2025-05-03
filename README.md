@@ -1,4 +1,4 @@
-# Yasss - Yet Another Simple Storage Surfer
+# Yasss - Yet Another Stupid Storage Server 💅
 
 You know when sometimes you want to access the files of a server remotely for a few minutes and don't want to bother setting some file server? Or when you have SSH access but can't use WinSCP because it doesn't support _ssh-agent_ and they see this as a [low priority issue](https://winscp.net/tracker/1682), and  don't want to use FileZila after the whole [malware fiasco](https://duckduckgo.com/?q=filezilla+malware)?  
   
@@ -19,9 +19,8 @@ bun install
 bun run dev
 echo "now go to http://localhost:3000"
 
-# Building binaries
-# This only partially works, see issue below:
-#   https://github.com/oven-sh/bun/issues/17653
+# Building binaries - this only partially works, see issue below:
+# https://github.com/oven-sh/bun/issues/17653
 bun run build
 echo "files should be in ./dist"
 ```
@@ -42,4 +41,4 @@ echo "files should be in ./dist"
 - [ ] for docker images
     - maybe add some ngrok that creates an easy tunnel?
     - maybe use https://sslip.io + lets encrypt?
-- [ ] create readme
+- [ ] Write a decent README with usage docs

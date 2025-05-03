@@ -1,6 +1,10 @@
 {
-  "name": "bun-react-template",
+  "name": "yasss",
   "version": "0.1.0",
+  "author": "tabarra",
+  "description": "Yet Another Stupid Storage Server",
+  "repository": "https://github.com/tabarra/yasss",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "main": "src/index.tsx",
